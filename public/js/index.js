@@ -18,7 +18,7 @@ window.onload = (e) => {
   mainFunction(1000);
 };
 
-var socket = io("ws://localhost:3000");
+var socket = io("ws://3.109.108.242:3000");
 socket.emit("userInformation", userStatus);
 
 
